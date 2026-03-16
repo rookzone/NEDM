@@ -14,7 +14,7 @@ maps
 			resource0
 			{
 				type = 0;
-				location = "C:\\Doom\\UZDoom\\WAD\\doom2.wad";
+				location = "C:\\Doom\\My levels\\NEDM\\wad\\resource\\doom2.wad";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -24,7 +24,7 @@ maps
 			resource1
 			{
 				type = 0;
-				location = "C:\\Doom\\UZDoom\\WAD\\OTEX_1.1.WAD";
+				location = "C:\\Doom\\My levels\\NEDM\\wad\\resource\\OTEX_1.1.WAD";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -48,9 +48,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = 878.3088f;
-		viewpositiony = -410.097f;
-		viewscale = 0.3642758f;
+		viewpositionx = 521.6528f;
+		viewpositiony = -694.961f;
+		viewscale = 0.6156261f;
 		
 		grid
 		{
@@ -60,7 +60,7 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 128;
+			gridsize = 64;
 			gridrotate = 0;
 			gridoriginx = 0;
 			gridoriginy = 0;
