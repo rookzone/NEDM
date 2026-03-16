@@ -48,6 +48,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
+		viewpositionx = 1454.092f;
+		viewpositiony = -602.5483f;
+		viewscale = 0.2802122f;
 		viewpositionx = 521.6528f;
 		viewpositiony = -694.961f;
 		viewscale = 0.6156261f;
