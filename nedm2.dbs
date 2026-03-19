@@ -31,8 +31,8 @@ maps
 				requiredarchives = "";
 			}
 		}
-		defaultfloortexture = "FLOOR5_1";
-		defaultceiltexture = "SLIME13";
+		defaultfloortexture = "RROCK04";
+		defaultceiltexture = "F_SKY1";
 		defaulttoptexture = "STARG3";
 		defaultwalltexture = "STARG3";
 		defaultbottomtexture = "STARG3";
@@ -48,9 +48,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = 1904.904f;
-		viewpositiony = 519.0708f;
-		viewscale = 0.6156253f;
+		viewpositionx = 1353.65f;
+		viewpositiony = -244.5429f;
+		viewscale = 8.486944f;
 		
 		grid
 		{
@@ -60,7 +60,7 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 32;
+			gridsize = 4;
 			gridrotate = 0;
 			gridoriginx = 0;
 			gridoriginy = 0;
@@ -92,6 +92,18 @@ maps
 			autocloseonsuccess = true;
 			exitcodeiserror = true;
 			stderriserror = true;
+		}
+		
+		plugins
+		{
+			
+			stairsectorbuilder
+			{
+				
+				prefabs
+				{
+				}
+			}
 		}
 	}
 }
