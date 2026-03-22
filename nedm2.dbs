@@ -14,7 +14,7 @@ maps
 			resource0
 			{
 				type = 1;
-				location = "D:\\Doom\\udb maps\\NEDM\\wad\\resource";
+				location = "E:\\Doom\\NEDM\\wad\\resource";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -38,9 +38,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = 1064.604f;
-		viewpositiony = -1208.343f;
-		viewscale = 0.8020433f;
+		viewpositionx = 634.8115f;
+		viewpositiony = -1062.92f;
+		viewscale = 0.4745819f;
 		
 		grid
 		{
