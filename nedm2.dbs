@@ -13,18 +13,8 @@ maps
 			
 			resource0
 			{
-				type = 0;
-				location = "D:\\Doom\\udb maps\\NEDM\\wad\\resource\\doom2.wad";
-				option1 = 0;
-				option2 = 0;
-				notfortesting = 0;
-				requiredarchives = "";
-			}
-			
-			resource1
-			{
-				type = 0;
-				location = "D:\\Doom\\udb maps\\NEDM\\wad\\resource\\OTEX_1.1.WAD";
+				type = 1;
+				location = "E:\\Doom\\NEDM\\wad\\resource";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -48,9 +38,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = -722.6995f;
-		viewpositiony = -2024.275f;
-		viewscale = 0.6169564f;
+		viewpositionx = 1195.087f;
+		viewpositiony = -556.3071f;
+		viewscale = 0.4745819f;
 		
 		grid
 		{
