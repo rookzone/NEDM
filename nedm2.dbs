@@ -1,5 +1,5 @@
 type = "Doom Builder Map Settings Configuration";
-gameconfig = "Doom_Doom2Doom.cfg";
+gameconfig = "Boom_Doom2Doom.cfg";
 strictpatches = 0;
 
 maps
@@ -7,6 +7,11 @@ maps
 	
 	MAP01
 	{
+		defaultwalltexture = "STARG3";
+		overridemiddletexture = false;
+		defaultceiltexture = "F_SKY1";
+		overrideceiltexture = false;
+		custombrightness = 196;
 		
 		resources
 		{
@@ -21,54 +26,8 @@ maps
 				requiredarchives = "";
 			}
 		}
-		defaultfloortexture = "RROCK04";
-		defaultceiltexture = "F_SKY1";
-		defaulttoptexture = "STARG3";
-		defaultwalltexture = "STARG3";
-		defaultbottomtexture = "STARG3";
-		custombrightness = 196;
-		customfloorheight = 0;
-		customceilheight = 128;
-		overridefloortexture = false;
-		overrideceiltexture = false;
-		overridetoptexture = false;
-		overridemiddletexture = false;
-		overridebottomtexture = false;
-		overridefloorheight = false;
-		overrideceilheight = false;
-		overridebrightness = false;
-		uselongtexturenames = false;
-		viewpositionx = 1195.087f;
-		viewpositiony = -556.3071f;
-		viewscale = 0.4745819f;
-		
-		grid
-		{
-			background = "";
-			backsource = 0;
-			backoffsetx = 0;
-			backoffsety = 0;
-			backscalex = 100;
-			backscaley = 100;
-			gridsize = 64;
-			gridrotate = 0;
-			gridoriginx = 0;
-			gridoriginy = 0;
-		}
-		
-		reloadresourceprecommand
-		{
-			autocloseonsuccess = true;
-			exitcodeiserror = true;
-			stderriserror = true;
-		}
-		
-		reloadresourcepostcommand
-		{
-			autocloseonsuccess = true;
-			exitcodeiserror = true;
-			stderriserror = true;
-		}
+		viewpositiony = -182.2699f;
+		viewpositionx = 1430.383f;
 		
 		testprecommand
 		{
@@ -76,6 +35,36 @@ maps
 			exitcodeiserror = true;
 			stderriserror = true;
 		}
+		customceilheight = 128;
+		customfloorheight = 0;
+		
+		grid
+		{
+			backoffsetx = 0;
+			backsource = 0;
+			gridoriginy = 0;
+			backscaley = 100;
+			gridrotate = 0;
+			backscalex = 100;
+			gridoriginx = 0;
+			gridsize = 32;
+			background = "";
+			backoffsety = 0;
+		}
+		viewscale = 1.225105f;
+		
+		reloadresourceprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		defaulttoptexture = "STARG3";
+		overridebottomtexture = false;
+		defaultbottomtexture = "STARG3";
+		defaultfloortexture = "RROCK04";
+		overrideceilheight = false;
+		overridebrightness = false;
 		
 		testpostcommand
 		{
@@ -83,17 +72,16 @@ maps
 			exitcodeiserror = true;
 			stderriserror = true;
 		}
+		overridefloorheight = false;
+		overridetoptexture = false;
+		uselongtexturenames = false;
+		overridefloortexture = false;
 		
-		plugins
+		reloadresourcepostcommand
 		{
-			
-			stairsectorbuilder
-			{
-				
-				prefabs
-				{
-				}
-			}
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
 		}
 	}
 }
